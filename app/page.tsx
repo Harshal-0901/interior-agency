@@ -46,7 +46,7 @@ export default async function Home() {
               <p className="uppercase text-xl">New Haven furniture for comfort living</p>
             </div>
             <div className="flex flex-col gap-3 items-start sm:gap-9 xl:w-3/4">
-              <p className="text-base">At New Haven, we believe in transforming spaces and inspiring lives through exceptional interior design. With a passion for creating beautiful living environments, our team of experienced designers combines innovative ideas with meticulous attention to detail. We specialize in crafting elegant and functional spaces that reflect our clients' unique visions and lifestyles. Let us elevate your space and bring your dream interiors to life.</p>
+              <p className="text-base">At New Haven, we believe in transforming spaces and inspiring lives through exceptional interior design. With a passion for creating beautiful living environments, our team of experienced designers combines innovative ideas with meticulous attention to detail. We specialize in crafting elegant and functional spaces that reflect our clients unique visions and lifestyles. Let us elevate your space and bring your dream interiors to life.</p>
               <Link href="/works">
                 <button className="border-2 hover:bg-black hover:text-white duration-300 font-bebas pt-1 border-black rounded-full px-6 font-bold py-1">
                   Detail
