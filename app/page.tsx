@@ -27,11 +27,11 @@ export default async function Home() {
             <button className="border-2 font-bebas pt-1 text-white hover:bg-white hover:text-black text-lg duration-300 border-white rounded-full px-9 py-1">
               Explore
             </button>
-            <div className="flex flex-col">
-              <h2 className="font-bold text-4xl leading-none font-bebas text-white">
-                {Hero.heading}
+            <div className="flex flex-col ml-15">
+              <h2 className="font-semibold text-3xl leading-none font-bebas text-white ">
+                Furniture for your home
               </h2>
-              <p className="text-white text-lg">{Hero.tagline} </p>
+              <p className="text-white text-lg text-center"> Designing Dreams into Reality with New Haven </p>
             </div>
           </div>
         </div>
@@ -43,11 +43,10 @@ export default async function Home() {
         <div id="container" className=" px-6 sm:px-24 w-full h-full">
           <div className="flex xl:flex-row xl:gap-64 flex-col h-full justify-center xl:items-center">
             <div className="flex flex-col h-full sm:justify-center xl:gap-12 xl:text-center">
-              <p className="uppercase text-xl">{Content.heading}</p>
-              <p>{Content.tagline}</p>
+              <p className="uppercase text-xl">New Haven furniture for comfort living</p>
             </div>
             <div className="flex flex-col gap-3 items-start sm:gap-9 xl:w-3/4">
-              <p className="text-base">{Content.excerpt}</p>
+              <p className="text-base">At New Haven, we believe in transforming spaces and inspiring lives through exceptional interior design. With a passion for creating beautiful living environments, our team of experienced designers combines innovative ideas with meticulous attention to detail. We specialize in crafting elegant and functional spaces that reflect our clients' unique visions and lifestyles. Let us elevate your space and bring your dream interiors to life.</p>
               <Link href="/works">
                 <button className="border-2 hover:bg-black hover:text-white duration-300 font-bebas pt-1 border-black rounded-full px-6 font-bold py-1">
                   Detail
@@ -64,7 +63,7 @@ export default async function Home() {
         <div id="container" className=" px-6 sm:px-24 w-full h-full">
           <div className="w-full h-fit">
             <h3 className="text-[100vh] leading-none font-bebas tracking-tighter">
-              {SectionImageOverlay.heading}
+              NewHaven
             </h3>
             <div className="absolute top-[25%] aspect-square w-[88vw] sm:w-[30vw] left-0">
               <Image

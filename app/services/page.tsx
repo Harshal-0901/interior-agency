@@ -35,11 +35,11 @@ const ServicesPage = async () => {
                 </div>
                 <div className="text-sm">{element.excerpt}</div>
                 <Link
-                  href={CallToAction.link}
+                  href='/'
                   target="_blank"
                   className="text-white border-2 border-white py-3 font-bebas  text-xl text-x text-center hover:bg-white hover:text-black duration-300"
-                >
-                  {CallToAction.title}
+                > 
+                  Contact US
                 </Link>
               </div>
             );
